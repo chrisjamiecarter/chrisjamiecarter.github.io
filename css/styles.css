@@ -462,6 +462,19 @@ button {
   border-radius: 2px;
   display: flex;
   flex-direction: column;
+  max-width: 200px;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .project {
+    max-width: 160px;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .project {
+    max-width: 120px;
+  }
 }
 
 .project-image {

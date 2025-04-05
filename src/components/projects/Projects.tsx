@@ -141,7 +141,7 @@ const Projects = () => {
               community projects. Here are some of my personal projects.
             </p>
           </div>
-          <div className="pt-4 sm:mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-6">
+          <div className="pt-4 sm:mt-6 gap-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:gap-y-6">
             {projectElements}
           </div>
         </div>

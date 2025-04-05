@@ -58,6 +58,9 @@ const Hero = () => {
               Download CV
             </a>
           </div>
+          <div className="hidden md:block absolute bottom-[5%] left-[50%] -translate-x-1/2">
+            <div id="mouse" />
+          </div>
         </div>
       </Jumbotron>
     </section>

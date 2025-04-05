@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+@import "./scss/stars.scss";
+
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+  --animate-bganimation: bganimation 70s ease infinite;
+  @keyframes bganimation {
+    0% {
+      background-position: 0% 7%;
+    }
+    50% {
+      background-position: 100% 94%;
+    }
+    100% {
+      background-position: 0% 7%;
+    }
+  }
+
+  --animate-jumbotronstar: jumbotronstar 10s linear infinite;
+  @keyframes jumbotronstar {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-2000px);
+    }
+  }
+
+  --animate-profilecard: profilecard 3s ease infinite;
+  @keyframes profilecard {
+    from {
+      transform: translate(-0.5rem, -0.5rem);
+    }
+    to {
+      transform: translateY(-2000px);
+    }
+  }
+}
